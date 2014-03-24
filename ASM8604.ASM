@@ -1291,7 +1291,7 @@ EMESB:	DEFM	'Operand error$'
 EMESC:	DEFM	'Include error$'
 EMESD:	DEFM	'Too long line$'
 
-MES1:	DEFM	'==== Z-80A Self Assembler ===='
+MES1:	DEFM	'==== 8086 Cross Assembler ===='
 	DEFB	0DH,0AH
 	DEFM	'       Programed by djnz80a'
 	DEFB	0DH,0AH,'$'
